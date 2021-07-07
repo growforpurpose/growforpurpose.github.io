@@ -1,0 +1,39 @@
+<!-- Home -->
+<article id="home" class="panel special">	
+	<div class="content">
+		<div class="inner">
+			<header>
+				<h1>
+					<img src="@pathto(output/images/logo-landscape.png)" alt="" data-position="center center" />
+				</h1>
+
+				<p>Always keeping it simple!</p>
+			</header>
+			<nav id="nav">
+				<ul class="actions stacked special animated spinY">
+					<li><a href="#about" class="button">About</a></li>
+					<li><a href="#pepperberries" class="button">Pepperberries</a></li>
+					<li><a href="#contact" class="button">Contact</a></li>
+				</ul>
+			</nav>
+
+			<h5>
+				Jar returns
+			</h5>
+
+			<p>
+				We would love to try and have any unwanted jars returned to us so that we can reuse them. Please drop off if we are at a local market near you or we can meet you in the local Huon Valley, Kingston and Hobart areas. Please get in touch to see if we can find a time to collect.
+			</p>
+
+			<ul class="icons">
+				<li><a href="#" class="icon solid fas fa-phone"><span class="label">Call</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+	</div>
+</article>
+
+@input(content/about.content)
+@input(content/pepperberries.content)
+@input(content/contact.content)

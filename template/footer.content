@@ -1,0 +1,6 @@
+<!-- Footer -->
+<footer id="footer">
+	<!--<img src="@pathto(output/images/icon.png)" width="150px">-->
+
+	<p class="copyright">&copy;<span name="cyear"></span> Grow for purpose</p>
+</footer>

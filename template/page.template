@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		@input(template/head.content)
+	</head>
+
+	<body class="is-preload-0 is-preload-1">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				@input(template/menu.content)
+
+				@content()
+
+				@input(template/footer.content)
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!-- Inserts current year -->
+			<script>
+				var x = document.getElementsByName("cyear");
+
+				for(var i=0; i<x.length; i++)
+					x[i].innerHTML = new Date().getFullYear();
+			</script>
+
+	</body>
+
+<!--
+	Indivisible by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+
+</html>
