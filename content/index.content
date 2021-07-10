@@ -11,9 +11,9 @@
 			</header>
 			<nav id="nav">
 				<ul class="actions stacked special animated spinY">
-					<li><a href="#about" class="button">About</a></li>
-					<li><a href="#pepperberries" class="button">Pepperberries</a></li>
-					<li><a href="#contact" class="button">Contact</a></li>
+					<li><a href="@pathto(about)" class="button">About</a></li>
+					<li><a href="@pathto(pepperberries)" class="button">Pepperberries</a></li>
+					<li><a href="@pathto(contact)" class="button">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -34,6 +34,8 @@
 	</div>
 </article>
 
+@/*
 @input(content/about.content)
 @input(content/pepperberries.content)
 @input(content/contact.content)
+*/

@@ -2,7 +2,7 @@
 <article id="about" class="panel secondary">
 	<div class="content">
 		<ul class="actions animated spinX">
-			<li><a href="#" class="button small back">Back</a></li>
+			<li><a href="@pathto(index)" class="button small back">Back</a></li>
 		</ul>
 		<div class="inner">
 			<header>
@@ -14,7 +14,7 @@
 			</header>
 
 			<p>
-				We are a local Tasmanian social enterprise business wanting to help local communities in Southern Tasmania.
+				We are a local Tasmanian social enterprise business wanting to do our part by helping local communities in Southern Tasmania.
 			</p>
 
 			<p>
