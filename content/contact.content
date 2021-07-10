@@ -8,10 +8,12 @@
 			<header>
 				<h2>Contact</h2>
 			</header>
-			<p>m: 0417 52 00 44 – click to call</p>
-			<p>e: rob@growforpurpose.com.au – subject Web Contact</p>
-			<p>a: PO Box 316, Geeveston TAS 7116</p>
-			<p>f: facebook.com/growforpurpose</p>
+			<p>
+				<b>m:</b> <a href="tel:0417-520-044">0417 52 00 44</a><br>
+				<b>e:</b> <a href="mailto:rob@growforpurpose.com.au?subject=Web Contact">rob@growforpurpose.com.au</a><br>
+				<b>a:</b> PO Box 316, Geeveston TAS 7116<br>
+				<b>f:</b> <a href="https://facebook.com/growforpurpose">facebook.com/growforpurpose</a><br>
+			</p>
 		</div>
 	</div>
 </article>
