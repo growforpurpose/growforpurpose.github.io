@@ -1,0 +1,11 @@
+<div>
+	<div class="topnav" id="myTopnav">
+		<a href="@pathto(index)">Home</a>
+		<a href="@pathto(about)">About</a>
+		<a href="@pathto(pepperberries)">Pepperberries</a>
+		<a href="@pathto(contact)">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+		</a>
+	</div>
+</div>

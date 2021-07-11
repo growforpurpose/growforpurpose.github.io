@@ -1,9 +1,7 @@
 <!-- Pepperberries -->
 <article id="pepperberries" class="panel secondary">
 	<div class="content">
-		<ul class="actions animated spinX">
-			<li><a href="@pathto(index)" class="button small back">Back</a></li>
-		</ul>
+		@input(template/menu.content)
 		<div class="inner">
 			<header>
 				<h2>Pepperberries</h2>
