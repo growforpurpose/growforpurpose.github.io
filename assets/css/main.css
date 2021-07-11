@@ -37,6 +37,26 @@ ol, ul {
 	list-style: none;
 }
 
+/* width */
+::-webkit-scrollbar 
+{
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track 
+{
+ 	background: #b8d496; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+ 	background: #53575c;
+	border-radius: 10px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -148,7 +168,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #45d1a9 !important;
+			color: #b8d496 !important;
 			border-bottom-color: transparent;
 		}
 
